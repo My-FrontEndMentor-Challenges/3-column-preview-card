@@ -77,3 +77,36 @@ body {
 .luxury-card button {
   color: hsl(179, 100%, 13%);
 }
+@media screen and (max-width: 375px) {
+  .card-container {
+    height: 90%;
+    width: 90%;
+    flex-direction: column;
+  }
+  .single-card-content {
+    height: 85%;
+    padding: 0 1rem;
+  }
+  .single-card-content img {
+    height: 25px;
+  }
+  .single-card-content h1 {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+  }
+  .single-card-content p {
+    margin-bottom: 1rem;
+    font-size: 0.6rem;
+  }
+  .single-card-content button {
+    margin-bottom: 2.5rem;
+    font-size: 0.6rem;
+    padding: 0.5rem 1rem;
+  }
+  .sedan-card {
+    border-radius: 10px 10px 0 0;
+  }
+  .luxury-card {
+    border-radius: 0 0 10px 10px;
+  }
+}
